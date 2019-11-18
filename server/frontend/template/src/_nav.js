@@ -4,14 +4,14 @@ export default {
       name: 'Dashboard',
       url: '/dashboard',
       icon: 'icon-speedometer',
-      badge: {
-        variant: 'info',
-        text: 'NEW',
-      },
+    //   badge: {
+    //     variant: 'info',
+    //     text: 'NEW',
+    //   },
     },
     {
       title: true,
-      name: 'Theme',
+      name: 'Market',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
@@ -21,7 +21,7 @@ export default {
     {
       name: 'Stock Chart',
       url: '/theme/stockchart',
-      icon: 'icon-drop',
+      icon: 'icon-chart',
     },
     {
       name: 'Typography',

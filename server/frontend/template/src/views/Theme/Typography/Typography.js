@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import DataProvider from "../../../helper/DataProvider/DataProvider";
+import Table from "../../../helper/DataProvider/Table";
 
 class Typography extends Component {
   render() {
     return (
       <div className="animated fadeIn">
+		<DataProvider className="data-provider" endpoint="http://127.0.0.1:8000/api/lead/" render={data => <Table data={data} />} />
         <div className="card">
           <div className="card-header">
             Headings
