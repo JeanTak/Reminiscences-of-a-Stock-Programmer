@@ -13,8 +13,6 @@ class StockChartSerializer(serializers.ModelSerializer):
 		model = StockChart
 		fields = ('id', 'symbol', 'theme', 'locale')
 
-
-
 # # ALTERNATIVE 
 # class LeadSerializer(serializers.ModelSerializer):
 #     class Meta:

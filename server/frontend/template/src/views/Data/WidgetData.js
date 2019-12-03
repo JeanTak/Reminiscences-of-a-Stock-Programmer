@@ -18,8 +18,8 @@ export default {
 			"title": "BTC/USD"
 			},
 			{
-			"proName": "BITSTAMP:ETHUSD",
-			"title": "ETH/USD"
+			"proName": "TVIX",
+			"title": "TVIX"
 			}
 		],
 		"colorTheme": "dark",

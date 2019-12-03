@@ -5,7 +5,7 @@
 	background: #ccc;
 	border: 1px solid black;
 	border-radius: 5px;
-	text-align: center;
+	text-align: right;
 	margin-bottom: 10px;
 	overflow: hidden;
 	position: relative;
@@ -51,6 +51,7 @@
 
 .react-resizable {
   position: relative;
+  background-color: black;
 }
 .react-resizable-handle {
   position: absolute;
@@ -116,4 +117,20 @@
 }
 .ticker-widget{
 	padding-bottom: 15px;
+}
+.chart-delete{
+	padding: 1;
+	font-size: 10px;
+	position: relative;
+}
+
+.chart-field{
+	background-color: black;
+	color: rgba(255, 255, 255, 0.527);
+	font-size: 12px;
+	border: 0;
+	font-weight: bold;
+}
+.chart-field:focus{
+	background-color: black;
 }

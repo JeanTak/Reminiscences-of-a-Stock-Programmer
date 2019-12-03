@@ -3,4 +3,5 @@ from . import views
 urlpatterns = [
     path('api/lead/', views.LeadListCreate.as_view() ),
 	path('api/stockchart/', views.StockChartCreate.as_view() ),
+	path('api/stockchart/update', views.StockChartUpdate ),
 ]
