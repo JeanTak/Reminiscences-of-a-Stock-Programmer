@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "cypress": "^3.6.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "weak-key": "^1.0.1"
   },
   "scripts": {
