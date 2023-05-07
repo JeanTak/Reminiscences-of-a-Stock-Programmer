@@ -44,7 +44,7 @@
     "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
-    "cypress": "^3.6.1",
+    "cypress": "^12.11.0",
     "react-scripts": "^3.0.1",
     "weak-key": "^1.0.1"
   },
